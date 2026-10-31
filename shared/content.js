@@ -15,9 +15,9 @@ export const profile = {
   email: 'pranavhasban70285@gmail.com',
   links: {
     github: 'https://github.com/pranavhasban2006',
-    linkedin: '',
-    leetcode: '',
-    codeforces: '',
+    linkedin: 'https://www.linkedin.com/in/pranav-hasban-579112332/',
+    leetcode: 'https://leetcode.com/u/Pranav70285/',
+    codeforces: 'https://codeforces.com/profile/Pranav70285',
     resume: '/resume.pdf',
   },
   stats: [
@@ -43,8 +43,8 @@ export const projects = [
       'Admin dashboard for products, orders, users, inventory',
       'Deployed: Render (API) + Vercel (web)',
     ],
-    github: '',
-    demo: '',
+    github: 'https://github.com/pranavhasban2006/NexCart',
+    demo: 'https://nex-cart-six.vercel.app/',
     accent: '#00f0ff',
   },
   {
@@ -54,22 +54,23 @@ export const projects = [
     kind: 'Cloud · ML',
     summary:
       'Autonomous University Resource Allocator: a green cloud framework that forecasts data center demand and schedules servers and batch jobs around grid carbon intensity. Team of 3; I built the React frontend.',
-    tech: ['React', 'Node.js', 'AWS Lambda', 'SageMaker', 'DynamoDB', 'Cognito', 'TensorFlow'],
+    tech: ['React', 'Node.js', 'Express', 'AWS EC2', 'DynamoDB', 'Cognito', 'TensorFlow'],
     highlights: [
       'LSTM forecast: 20% lower error than weekly baseline',
       'Energy -39.5%, CO2 -41.3% vs always on',
       '99.5% SLA compliance on 5.4M real readings',
       'Scenario simulator with CSV and printable reports',
+      'AWS free tier: Cognito, EC2 Express API, DynamoDB, CloudWatch/SNS',
     ],
-    github: '',
-    demo: '',
+    github: 'https://github.com/pranavhasban2006/My_AURA_Cloud_Project',
+    demo: 'http://aura-dashboard-pranav-2026.s3-website-ap-southeast-2.amazonaws.com',
     accent: '#c6ff00',
   },
   {
     slug: 'emotion-detection',
     order: 3,
     title: 'Multimodal Emotion Detection',
-    kind: 'AI / ML research',
+    kind: 'AI / ML research · in progress',
     summary:
       'Recognises 7 emotions from images, video clips and live webcam streams, with a plug in design ready for audio, text and EEG models.',
     tech: ['PyTorch', 'FastAPI', 'React', 'MediaPipe', 'WebSockets', 'SQLite'],
@@ -117,7 +118,7 @@ export const skills = [
   { group: 'Languages', items: ['C', 'C++', 'Python', 'JavaScript', 'SQL'] },
   { group: 'AI / ML', items: ['PyTorch', 'TensorFlow', 'MediaPipe', 'LSTM', 'CNN', 'Pandas', 'NumPy'] },
   { group: 'Full stack', items: ['React', 'Redux Toolkit', 'Tailwind', 'Node.js', 'Express', 'FastAPI', 'MongoDB', 'JWT'] },
-  { group: 'Cloud & tools', items: ['AWS', 'SageMaker', 'Lambda', 'DynamoDB', 'Docker', 'Git', 'Render', 'Vercel'] },
+  { group: 'Cloud & tools', items: ['AWS', 'Lambda', 'DynamoDB', 'Docker', 'Git', 'Render', 'Vercel', 'System design'] },
 ];
 
 export const posts = [
